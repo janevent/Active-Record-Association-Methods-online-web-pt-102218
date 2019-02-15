@@ -7,7 +7,6 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    # when this method is called it should assi
-    self
+    self.artist.name = "Drake"
   end
 end
